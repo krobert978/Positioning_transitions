@@ -29,16 +29,16 @@
     position: absolute;
     top: 0px;
     left: 15vw;
-    width: 120px;
+    width: 120px; 
     background-color: rgba(63, 117, 134, 0.3);
-    border-left: 4px solid rgba(129, 225, 255, 0.63); 
+    border-left: 4px solid rgba(129, 225, 255, 0.63);
     
         
 }  
 .menu-item {
-    padding: 10px;
-    margin: 0;
-    height: 100%;
+    padding: 0;
+    margin: 10px 0;
+    /* height: 1.5vw; */
     text-align: center;
    }
 .menu-item a {
@@ -49,8 +49,10 @@
 }
 .menu-item:hover {
     background-color: #4cc3c3;
-   cursor: pointer;
-    padding: 15px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0;
+    width: 115px;
     transition: all 0.2s ease-in-out;
   }
 .main-container {
